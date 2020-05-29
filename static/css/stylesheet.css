@@ -1,0 +1,64 @@
+.Room {
+  background: lavender;
+  margin: 0.125rem;
+  text-align: center;
+}
+
+.Container {
+  display: flex;
+}
+
+.Level {
+  max-width: 90rem;
+  margin: 5rem;
+}
+
+.Notification {
+  margin: 5rem;
+}
+.Notification > div {
+  border: 0.0625rem solid black;
+  padding: 2rem;
+  margin: 5rem;
+}
+
+.Level-1 {
+  display: flex;
+  height: 20rem;
+}
+.Level-1-room1 {
+  width: 50rem;
+}
+.Level-1-room2 {
+  width: 50rem;
+}
+
+.Level-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.Level-2-stairs {
+  width: 15rem;
+}
+
+.Level-3 {
+  display: flex;
+  height: 20rem;
+}
+.Level-3-room1 {
+  width: 90.5rem;
+}
+
+.Level-4 {
+  display: flex;
+  height: 10rem;
+}
+.Level-4-room1 {
+  width: 30rem;
+}
+.Level-4-room2 {
+  width: 30rem;
+}
+.Level-4-room3 {
+  width: 30rem;
+}
